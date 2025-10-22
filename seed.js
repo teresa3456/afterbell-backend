@@ -108,9 +108,9 @@ async function seedDatabase() {
   });
 
   try {
-    console.log('🌱 Starting database seeding...');
+    console.log('Starting database seeding...');
     await client.connect();
-    console.log('✅ Connected to MongoDB Atlas');
+    console.log('Connected to MongoDB Atlas');
 
     const db = client.db(process.env.DB_NAME);
     const lessonsCollection = db.collection('lessons');

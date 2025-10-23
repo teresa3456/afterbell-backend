@@ -144,3 +144,5 @@ process.on('SIGINT', async () => {
 // POST /api/orders - Creates new order in MongoDB
 
 // Static file middleware for serving images
+
+// CORS enabled for frontend communication

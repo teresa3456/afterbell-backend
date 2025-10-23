@@ -11,3 +11,7 @@ Deployed on Render.com with MongoDB Atlas integration.
 
 ## API Testing
 Postman collection included for testing all endpoints
+
+
+## Deployment
+Deployed on Render.com: [URL will be added]

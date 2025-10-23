@@ -161,3 +161,5 @@ module.exports = router;
 // RESTful API endpoints
 
 // GET /api/lessons - Returns all lessons as JSON
+
+// PUT /api/lessons/:id - Updates lesson spaces

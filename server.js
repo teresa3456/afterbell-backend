@@ -142,3 +142,5 @@ process.on('SIGINT', async () => {
 // Production-ready configuration
 
 // POST /api/orders - Creates new order in MongoDB
+
+// Static file middleware for serving images

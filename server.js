@@ -146,3 +146,5 @@ process.on('SIGINT', async () => {
 // Static file middleware for serving images
 
 // CORS enabled for frontend communication
+
+// Global error handling middleware

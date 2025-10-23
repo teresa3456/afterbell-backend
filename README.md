@@ -2,3 +2,8 @@
 
 ## Deployment
 Deployed on Render.com with MongoDB Atlas integration.
+
+
+## MongoDB Collections
+- lessons: Stores lesson data
+- orders: Stores order information

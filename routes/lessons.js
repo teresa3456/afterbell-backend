@@ -163,3 +163,5 @@ module.exports = router;
 // GET /api/lessons - Returns all lessons as JSON
 
 // PUT /api/lessons/:id - Updates lesson spaces
+
+// GET /api/lessons/search - Full-text search implementation

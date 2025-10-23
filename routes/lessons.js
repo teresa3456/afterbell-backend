@@ -159,3 +159,5 @@ router.delete('/:id', async (req, res) => {
 module.exports = router;
 
 // RESTful API endpoints
+
+// GET /api/lessons - Returns all lessons as JSON

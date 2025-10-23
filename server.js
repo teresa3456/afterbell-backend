@@ -23,10 +23,10 @@ async function connectDB() {
   try {
     await mongoClient.connect();
     db = mongoClient.db(process.env.DB_NAME);
-    console.log('✅ Connected to MongoDB Atlas successfully!');
-    console.log(`📚 Database: ${process.env.DB_NAME}`);
+    console.log('Connected to MongoDB Atlas successfully!');
+    console.log(`Database: ${process.env.DB_NAME}`);
   } catch (error) {
-    console.error('❌ MongoDB connection error:', error);
+    console.error('MongoDB connection error:', error);
     process.exit(1);
   }
 }
@@ -116,7 +116,7 @@ app.use((req, res) => {
 
 // Error handling middleware
 app.use((err, req, res, next) => {
-  console.error('❌ Error:', err);
+  console.error(' Error:', err);
   res.status(500).json({
     error: 'Internal server error',
     message: err.message
@@ -126,17 +126,19 @@ app.use((err, req, res, next) => {
 // Start server after DB connection
 connectDB().then(() => {
   app.listen(PORT, () => {
-    console.log(`🚀 Server running on port ${PORT}`);
-    console.log(`🌐 API URL: http://localhost:${PORT}`);
-    console.log(`📖 Documentation: http://localhost:${PORT}/`);
+    console.log(`Server running on port ${PORT}`);
+    console.log(`API URL: http://localhost:${PORT}`);
+    console.log(`Documentation: http://localhost:${PORT}/`);
   });
 });
 
 // Graceful shutdown
 process.on('SIGINT', async () => {
-  console.log('\n⏳ Shutting down gracefully...');
+  console.log('\n Shutting down gracefully...');
   await mongoClient.close();
-  console.log('✅ MongoDB connection closed');
+  console.log('MongoDB connection closed');
   process.exit(0);
 });
 // Production-ready configuration
+
+// POST /api/orders - Creates new order in MongoDB

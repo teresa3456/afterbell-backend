@@ -70,6 +70,6 @@ Postman collection included for testing all endpoints
 
 
 ## Deployment
-Deployed on Render.com: [\[URL will be added\]](https://afterbell-backend.onrender.com)
+Deployed on Render.com: (https://afterbell-backend.onrender.com)
 
 

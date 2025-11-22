@@ -22,7 +22,7 @@
 - **Search Lessons:** https://afterbell-backend.onrender.com/api/lessons/search?q=math
 - **Create Order:** POST https://afterbell-backend.onrender.com/api/orders
 
-## 🛠️ Technologies Used
+## Technologies Used
 - Node.js
 - Express.js
 - MongoDB Atlas (Native Driver - No Mongoose)

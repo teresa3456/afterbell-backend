@@ -2,12 +2,12 @@
 
 # AfterBell Learning App - Backend API
 
-## 📚 Project Information
+## Project Information
 - **Student:** Terry Ambani
 - **Module:** CST3144 - Full Stack Development
 - **Academic Year:** 2025-26
 
-## 🔗 Important Links
+## Important Links
 
 ### Repositories
 - **Backend Repository:** https://github.com/teresa3456/afterbell-backend
@@ -29,20 +29,20 @@
 - CORS
 - dotenv
 
-## 📊 MongoDB Collections
+## MongoDB Collections
 - **lessons:** Stores lesson information (subject, location, price, spaces)
 - **orders:** Stores order data (name, phone, lessonIds, totalAmount)
 
-## 🧪 Testing
+## Testing
 - Postman collection included in repository
 - All routes tested and documented
 
-## 🚀 Deployment
+## Deployment
 - Hosted on: Render.com
 - Database: MongoDB Atlas
 - Environment: Production
 
-## 📝 API Routes
+## API Routes
 - `GET /api/lessons` - Returns all lessons as JSON
 - `GET /api/lessons/search?q={query}` - Search lessons
 - `GET /api/lessons/:id` - Get specific lesson
@@ -50,7 +50,7 @@
 - `PUT /api/lessons/:id` - Update lesson
 - `POST /api/orders` - Create new order
 
-## ⚙️ Middleware
+## Middleware
 - Logger middleware for request tracking
 - Static file middleware for image serving
 - CORS for cross-origin requests
